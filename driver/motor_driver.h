@@ -1,9 +1,6 @@
-/*
-Name:		motor_driver.h
-Created:	7/22/2016 8:56:52 PM
-Author:	Chaoyang Liu
-*/
-
+/***********************************************************************
+   L298N driver declarations - by Chaoyang Liu
+ ***********************************************************************/
 #define LEFT           0
 #define RIGHT          1
 //#define MAX_PWM        255

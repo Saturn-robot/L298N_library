@@ -1,9 +1,6 @@
-/*
-Name:		motor_driver.ino
-Created:	7/22/2016 8:56:52 PM
-Author:	Chaoyang Liu
-*/
-
+/***********************************************************
+ * L298N driver definitions - by Chaoyang Liu
+ ***********************************************************/
 #include "motor_driver.h"
 
 boolean directionLeft = false;
