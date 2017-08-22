@@ -34,7 +34,7 @@ void L298N::setMotorSpeed(int i, int spd)
       // Go backward
       digitalWrite(in1, HIGH);
       digitalWrite(in2, LOW);
-      analogWrite(ena, spd);
+      analogWrite(ena, -spd);
     }
   }
   else
@@ -51,7 +51,7 @@ void L298N::setMotorSpeed(int i, int spd)
       // Go backward
       digitalWrite(in3, HIGH);
       digitalWrite(in4, LOW);
-      analogWrite(enb, spd);
+      analogWrite(enb, -spd);
     }
   }
 }
