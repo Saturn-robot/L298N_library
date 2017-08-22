@@ -1,3 +1,12 @@
+#ifndef L298N_H
+#define L298N_H
+
+#if defined(ARDUINO) && ARDUINO >= 100
+#include "Arduino.h"
+#else
+#include "WProgram.h"
+#endif
+
 #define MAX_PWM 255
 #define LEFT 0
 #define RIGHT 1
@@ -30,3 +39,5 @@ public:
     void stopMotor(int i);
     void stopMotors();
 };
+
+#endif
